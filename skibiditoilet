@@ -1731,7 +1731,6 @@ do
                                 }, colorpicker.holder.drawings);colorpicker.holder.transparency_cursor[3] = colorpicker_open_transparency_cursor_color
                                 --
                                 utility:LoadImage(colorpicker_open_transparency_image, "transp", "")
-                                --utility:LoadImage(colorpicker_open_transparency_image, "transp", "https://i.imgur.com/VcMAYjL.png")
                             end
                             --
                             utility:LoadImage(colorpicker_open_picker_image, "valsat", "")
@@ -2485,7 +2484,7 @@ do
                                 Visible = page.open
                             }, dropdown.holder.drawings)
                             --
-                            utility:LoadImage(dropdown_value_gradient, "gradient", "https://i.imgur.com/5hmlrjX.png")]]
+                            utility:LoadImage(dropdown_value_gradient, "gradient", "")]]
                             --
                             local dropdown_value = utility:Create("TextLabel", {Vector2.new(v == tostring(dropdown.current) and 8 or 6,2), dropdown_value_frame}, {
                                 Text = v,
@@ -2729,7 +2728,7 @@ do
                                 Visible = page.open
                             }, multibox.holder.drawings)
                             --
-                            utility:LoadImage(multibox_value_gradient, "gradient", "https://i.imgur.com/5hmlrjX.png")]]
+                            utility:LoadImage(multibox_value_gradient, "gradient", "")]]
                             --
                             local multibox_value = utility:Create("TextLabel", {Vector2.new(table.find(multibox.current, v) and 8 or 6,2), multibox_value_frame}, {
                                 Text = v,
@@ -3360,7 +3359,7 @@ do
                             }, colorpicker.holder.drawings);colorpicker.holder.transparency_cursor[3] = colorpicker_open_transparency_cursor_color
                             --
                             utility:LoadImage(colorpicker_open_transparency_image, "transp", "")
-                            --utility:LoadImage(colorpicker_open_transparency_image, "transp", "https://i.imgur.com/VcMAYjL.png")
+
                         end
                         --
                         utility:LoadImage(colorpicker_open_picker_image, "valsat", "")
@@ -3737,7 +3736,7 @@ do
                                 }, colorpicker.holder.drawings);colorpicker.holder.transparency_cursor[3] = colorpicker_open_transparency_cursor_color
                                 --
                                 utility:LoadImage(colorpicker_open_transparency_image, "transp", "")
-                                --utility:LoadImage(colorpicker_open_transparency_image, "transp", "https://i.imgur.com/VcMAYjL.png")
+                            
                             end
                             --
                             utility:LoadImage(colorpicker_open_picker_image, "valsat", "")
